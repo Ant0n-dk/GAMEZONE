@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GAMEZONE - Skolens helt egen spilsektion">
+    <title>GAMEZONE | Skolens spilsektion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">
+        <span class="logo-icon">G</span>
+        GAMEZONE
+    </a>
+
+    <nav>
+        <a href="#home">Forside</a>
+        <a href="#news">Gaming</a>
+        <a href="#reviews">Anmeldelser</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#polls">Afstemning</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tag">SKOLENS EGEN SPILSEKTION</span>
+            <h1>LEVEL UP<br>YOUR <span>GAME.</span></h1>
+            <p>
+                Gaming, nyheder, anmeldelser og udfordringer.
+                Velkommen til GAMEZONE!
+            </p>
+            <a href="#news" class="btn">Udforsk GAMEZONE →</a>
+        </div>
+        <div class="hero-decoration">🎮</div>
+    </section>
+
+    <section class="section" id="news">
+        <div class="section-heading">
+            <div>
+                <span class="tag">HOLD DIG OPDATERET</span>
+                <h2>Gaming universet</h2>
+            </div>
+            <span class="section-number">01 / GAMING</span>
+        </div>
+
+        <div class="card-grid">
+            <article class="game-card">
+                <div class="card-image minecraft">⛏️</div>
+                <div class="card-content">
+                    <span class="category">GAMING</span>
+                    <h3>Gaming-nyheder</h3>
+                    <p>De seneste nyheder fra gaming-verdenen.</p>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <div class="card-image controller">🎮</div>
+                <div class="card-content">
+                    <span class="category">ANBEFALINGER</span>
+                    <h3>Find dit næste spil</h3>
+                    <p>Opdag nye spil, du måske aldrig har prøvet.</p>
+                </div>
+            </article>
+
+            <article class="game-card">
+                <div class="card-image trophy">🏆</div>
+                <div class="card-content">
+                    <span class="category">COMMUNITY</span>
+                    <h3>Skolens gaming</h3>
+                    <p>Se hvad andre elever spiller lige nu.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section" id="reviews">
+        <div class="section-heading">
+            <div>
+                <span class="tag">VORES MENING</span>
+                <h2>Spilanmeldelser</h2>
+            </div>
+            <span class="section-number">02 / REVIEWS</span>
+        </div>
+
+        <div class="review-grid">
+            <article class="review-card">
+                <div class="review-icon">⛏️</div>
+                <div>
+                    <span class="category">SANDBOX</span>
+                    <h3>Minecraft</h3>
+                    <p>Uendelige muligheder og kreativ frihed.</p>
+                    <div class="rating">9.5 <span>/ 10</span></div>
+                </div>
+            </article>
+
+            <article class="review-card">
+                <div class="review-icon">🚗</div>
+                <div>
+                    <span class="category">RACING</span>
+                    <h3>Rocket League</h3>
+                    <p>Fodbold møder biler i et kaotisk spil.</p>
+                    <div class="rating">9.0 <span>/ 10</span></div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section challenge-section" id="quiz">
+        <div class="section-heading">
+            <div>
+                <span class="tag">TEST DIN VIDEN</span>
+                <h2>Gaming Quiz</h2>
+            </div>
+            <span class="section-number">03 / CHALLENGE</span>
+        </div>
+
+        <div class="interactive-card">
+            <div class="quiz-top">
+                <span>GAMING KNOWLEDGE</span>
+                <span id="quiz-progress">Spørgsmål 1 / 3</span>
+            </div>
+
+            <h3 id="quiz-question">Hvilket år udkom Minecraft officielt?</h3>
+
+            <div id="quiz-options" class="quiz-options">
+                <button class="quiz-option" data-answer="2011">2011</button>
+                <button class="quiz-option" data-answer="2009">2009</button>
+                <button class="quiz-option" data-answer="2013">2013</button>
+                <button class="quiz-option" data-answer="2015">2015</button>
+            </div>
+
+            <p id="quiz-feedback"></p>
+            <button id="next-question" class="btn" hidden>Næste spørgsmål →</button>
+            <p id="quiz-score"></p>
+        </div>
+    </section>
+
+    <section class="section" id="guess">
+        <div class="section-heading">
+            <div>
+                <span class="tag">KAN DU GÆTTE DET?</span>
+                <h2>Gæt spillet</h2>
+            </div>
+            <span class="section-number">04 / GUESS</span>
+        </div>
+
+        <div class="interactive-card guess-card">
+            <div class="guess-emoji" id="guess-emoji">🧱⛏️💎</div>
+            <h3 id="guess-clue">Et spil med blokke, minedrift og overlevelse.</h3>
+            <input id="guess-input" type="text" placeholder="Skriv dit svar...">
+            <button id="guess-submit" class="btn">Gæt spillet</button>
+            <p id="guess-feedback"></p>
+        </div>
+    </section>
+
+    <section class="section" id="polls">
+        <div class="section-heading">
+            <div>
+                <span class="tag">DIN MENING TÆLLER</span>
+                <h2>Ugens afstemning</h2>
+            </div>
+            <span class="section-number">05 / COMMUNITY</span>
+        </div>
+
+        <div class="interactive-card">
+            <h3>Hvilket spil er bedst?</h3>
+            <p>Stem på dit yndlingsspil!</p>
+
+            <div class="poll-options">
+                <button class="poll-option" data-poll="Minecraft">Minecraft</button>
+                <button class="poll-option" data-poll="Roblox">Roblox</button>
+                <button class="poll-option" data-poll="Fortnite">Fortnite</button>
+                <button class="poll-option" data-poll="Subnautica">Subnautica</button>
+            </div>
+
+            <p id="poll-feedback"></p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <a href="#" class="logo">GAMEZONE</a>
+    <p>Skolens helt egen spilsektion.</p>
+    <p class="copyright">© 2026 GAMEZONE · Lavet til skolens avis</p>
+</footer>
+
+</body>
+</html>
