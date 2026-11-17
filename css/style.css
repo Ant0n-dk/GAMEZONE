@@ -213,21 +213,15 @@ nav a:hover {
     padding: 23px;
 }
 
-.card-content h3, .review-card h3 {
+.card-content h3 {
     font-size: 19px;
     margin: 10px 0;
 }
 
-.card-content p, .review-card p, .interactive-card > p {
+.card-content p, .interactive-card > p {
     color: var(--muted);
     font-size: 13px;
     line-height: 1.7;
-}
-
-.review-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
 }
 
 .review-card {
