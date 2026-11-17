@@ -1,4 +1,3 @@
-
 const categories = {
     news: "Gaming-nyheder",
     recommendations: "Find dit næste spil",
@@ -10,37 +9,50 @@ const categories = {
 const articles = [
     {
         id: "subnautica-2",
-        title: "Subnautica 2 – tilbage til det ukendte",
-        category: "news",
-        label: "GAMING-NYHEDER",
-        date: "10. november 2026",
-        author: "GAMEZONE Redaktion",
+        title: "Subnautica 2 – fedt gameplay, men hvor er historien?",
+        category: "reviews",
+        label: "ANMELDELSE",
+        date: "11. november 2026",
+        author: "Anton",
         image: "assets/images/subnautica2.jpg",
-        description: "Et nyt eventyr venter under havets overflade.",
+        description: "Jeg har prøvet Subnautica 2 i Early Access. Her er mine tanker om spillet indtil videre.",
         content: `
-            <h2>En ny verden under vandet</h2>
+            <h2>Et nyt eventyr under vandet</h2>
             <p>
-                Subnautica 2 er efterfølgeren til det populære
-                overlevelsesspil Subnautica. Spillet tager
-                spillerne med til en ny fremmed verden.
+                Subnautica 2 er det nyeste spil i Subnautica-serien,
+                hvor man udforsker en fremmed planet fyldt med havdyr,
+                spændende steder og ting, man kan opdage.
+                Jeg har selv prøvet spillet i Early Access,
+                og der er allerede en del at gå i gang med.
             </p>
 
             <img src="assets/images/subnautica2-2.jpg"
                  alt="Subnautica 2 gameplay">
 
-            <h2>Overlevelse og udforskning</h2>
+            <h2>Gameplayet er rigtig godt</h2>
             <p>
-                Ligesom i det første spil handler det om at
-                samle ressourcer, bygge baser og udforske
-                havet. Men man skal også passe på de væsner,
-                der gemmer sig under overfladen.
+                Noget af det bedste ved spillet er gameplayet.
+                Det er sjovt at udforske havet, samle materialer
+                og finde nye ting. Man får lyst til at fortsætte
+                med at udforske, fordi man aldrig helt ved,
+                hvad man finder næste gang.
             </p>
 
-            <h2>Kan det leve op til forventningerne?</h2>
+            <h2>Der mangler lidt historie</h2>
             <p>
-                Mange fans glæder sig til at opleve den nye
-                verden. Det bliver spændende at se, om spillet
-                kan leve op til forgængerens succes.
+                Men der er også noget, jeg synes mangler.
+                Jeg føler nemlig, at historien godt kunne fylde
+                lidt mere. Det ville gøre det endnu mere spændende
+                at spille, hvis der var mere historie at følge med i.
+            </p>
+
+            <h2>Min mening indtil videre</h2>
+            <p>
+                Alt i alt synes jeg, at Subnautica 2 har et rigtig
+                godt gameplay, og jeg glæder mig til at se,
+                hvordan spillet udvikler sig fremover.
+                Jeg håber især, at der kommer mere historie,
+                efterhånden som Early Access bliver opdateret.
             </p>
         `
     },
