@@ -10,7 +10,7 @@ const articles = [
     {
         id: "subnautica-2",
         title: "Subnautica 2 – fedt gameplay, men hvor er historien?",
-        category: "recommendations",
+        category: "reviews",
         label: "ANMELDELSE",
         date: "11. november 2026",
         author: "Anton",
