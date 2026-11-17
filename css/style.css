@@ -205,6 +205,10 @@ nav a:hover {
     background: linear-gradient(135deg, #533a19, #986b25);
 }
 
+.review {
+    background: linear-gradient(135deg, #1a1b2c, #2e2f4a);
+}
+
 .card-content {
     padding: 23px;
 }
